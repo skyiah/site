@@ -1,6 +1,247 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    Skyiah site is online.
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChainSmart — Intelligent Automation for Agriculture & Business</title>
+    <meta name="description" content="ChainSmart provides AIoT-driven facility automation and digital commerce platforms for CEA, manufacturing, and chain businesses.">
+    <style>
+        :root {
+            --primary: #0066cc;
+            --dark: #0f172a;
+            --gray: #64748b;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8fafc;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 0;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .nav-links a {
+            margin-left: 2rem;
+            text-decoration: none;
+            color: #475569;
+            font-weight: 500;
+        }
+        .nav-links a:hover { color: var(--primary); }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+            color: white;
+            padding: 120px 0 100px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.2rem;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+        .hero p {
+            font-size: 1.35rem;
+            max-width: 680px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #0055aa;
+            transform: translateY(-3px);
+        }
+        .btn-outline {
+            border: 2px solid rgba(255,255,255,0.7);
+            color: white;
+            margin-left: 12px;
+        }
+        .btn-outline:hover {
+            background: white;
+            color: var(--dark);
+        }
+
+        /* Sections */
+        section {
+            padding: 90px 0;
+        }
+        h2 {
+            font-size: 2.4rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--dark);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card h3 {
+            margin: 1.2rem 0 0.8rem;
+            color: var(--dark);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: #cbd5e1;
+            padding: 80px 0 30px;
+            text-align: center;
+        }
+        .footer-links a {
+            color: #cbd5e1;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">ChainSmart</a>
+                <div class="nav-links">
+                    <a href="#solutions">Solutions</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Intelligent Automation<br>for the Real World</h1>
+            <p>AIoT-powered platforms that connect facilities, commerce, and operations — built for CEA, manufacturing, and modern chain businesses.</p>
+            <div>
+                <a href="#contact" class="btn btn-primary">Talk to Us</a>
+                <a href="#solutions" class="btn btn-outline">Explore Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions -->
+    <section id="solutions">
+        <div class="container">
+            <h2>Where ChainSmart Delivers Value</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🌱 Controlled Environment Agriculture (CEA)</h3>
+                    <p>Smart greenhouses, vertical farms, container farms, and hilly planting systems with real-time monitoring and automated control.</p>
+                </div>
+                <div class="card">
+                    <h3>🏭 Manufacturing & Facility Automation</h3>
+                    <p>Turnkey automation for production lines, processing facilities, and industrial IoT with predictive insights.</p>
+                </div>
+                <div class="card">
+                    <h3>🛒 Modern Chain Commerce</h3>
+                    <p>Digital marketplaces, unified order management, and seamless integration between physical facilities and online sales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="background:#f1f5f9;">
+        <div class="container">
+            <h2>About ChainSmart</h2>
+            <p style="max-width:720px;margin:0 auto 3rem;text-align:center;font-size:1.15rem;color:#475569;">
+                We build complete intelligent systems that bridge the physical and digital worlds. 
+                Our platform combines facility automation, IoT sensing, AI decision-making, and commerce 
+                capabilities into one unified solution — designed for real-world operations in agriculture, 
+                manufacturing, and service chains.
+            </p>
+            <div style="text-align:center;">
+                <strong>Seeking strategic partners and pilot projects worldwide.</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact">
+        <div class="container" style="text-align:center;">
+            <h2>Let's Build the Future Together</h2>
+            <p style="font-size:1.25rem;margin:1.5rem auto;max-width:600px;">
+                Whether you're a CEA operator, facility owner, agribusiness, or technology partner — 
+                we want to hear from you.
+            </p>
+            <a href="mailto:hello@chainsmart.io" class="btn btn-primary" style="font-size:1.3rem;padding:18px 48px;">
+                Get in Touch
+            </a>
+            <p style="margin-top:2rem;color:#64748b;">
+                Email: <strong>hello@chainsmart.io</strong><br>
+                We respond within 24 hours.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p style="font-size:1.4rem;margin-bottom:1rem;color:white;">ChainSmart</p>
+            <div class="footer-links">
+                <a href="#">Solutions</a>
+                <a href="#">Technology</a>
+                <a href="#">Partners</a>
+                <a href="#">About</a>
+            </div>
+            <p style="margin-top:3rem;opacity:0.7;font-size:0.95rem;">
+                &copy; 2026 ChainSmart. Intelligent systems for the physical economy.
+            </p>
+        </div>
+    </footer>
+
+</body>
 </html>
